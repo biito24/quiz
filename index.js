@@ -9,7 +9,7 @@ form.addEventListener('submit' , e =>{
   // check answer
   userAnswers.forEach( (answer, index) =>{
     if(answer === correcAnswers[index]){
-      score += 25
+      score += 20
     }
   })
   // show result on page
